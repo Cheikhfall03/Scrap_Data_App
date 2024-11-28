@@ -95,9 +95,6 @@ def load(dataframe, title, key, key1):
         )
 
 # Fonction CSS pour personnaliser l'apparence
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Fonction pour scraper les données sur les animaux
 def load_animaux_data(mul_page):
